@@ -19,6 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.usuario.turnero_hospital.Principal"
@@ -32,7 +33,14 @@
         </activity>
         <activity android:name="com.example.usuario.turnero_hospital.ListaEspecialidades" />
         <activity android:name="com.example.usuario.turnero_hospital.Calendario" />
-        <activity android:name="com.example.usuario.turnero_hospital.Formulario" />
+        <activity
+            android:name="com.example.usuario.turnero_hospital.Formulario"
+            android:parentActivityName="com.example.usuario.turnero_hospital.Principal" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Principal" >
+            </meta-data>
+        </activity>
     </application>
 
 </manifest>

@@ -10,5 +10,7 @@
     <string name="txt_registro">¿No tienes una cuenta aún? Registrate!</string>
     <string name="btn_registro">Registrarse</string>
 
+    <string name="toolbar_titulo_registrarse">Crear cuenta</string>
+
     <string name="action_settings">Settings</string>
 </resources>
