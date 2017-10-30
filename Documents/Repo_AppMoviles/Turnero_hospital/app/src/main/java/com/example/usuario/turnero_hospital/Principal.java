@@ -1,11 +1,15 @@
 package com.example.usuario.turnero_hospital;
 
+import android.app.Application;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.InputType;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,11 +21,9 @@ public class Principal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        Button btOpen1 = (Button) findViewById(R.id.btn_turnos);
-        btOpen1.setOnClickListener(new View.OnClickListener() {
+        Button btLogin = (Button) findViewById(R.id.btn_login);
+        btLogin.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -30,14 +32,16 @@ public class Principal extends AppCompatActivity {
             }
         });
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        Button btRegistrar = (Button) findViewById(R.id.btn_registro);
+        btRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(Principal.this, Formulario.class);
+                startActivity(intent);
+
             }
         });
+
     }
 
     @Override
@@ -61,7 +65,8 @@ public class Principal extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    protected void executeOpenActivity(){
+
+    protected void executeOpenActivity() {
         // Abrir activity Second sin tomar en cuenta la respuesta
         Intent intent = new Intent(this, ListaEspecialidades.class);
         startActivity(intent);
