@@ -1,3 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_login">32dp</dimen>
+    <dimen name="edittext_registro">10dp</dimen>
 </resources>
