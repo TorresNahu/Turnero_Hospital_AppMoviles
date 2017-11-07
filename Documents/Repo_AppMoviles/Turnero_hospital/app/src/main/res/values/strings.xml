@@ -17,4 +17,7 @@
     <string name="registro_apellido">Apellido</string>
     <string name="registro_dni">Numero de Documento</string>
     <string name="btn_crearCuenta">Crear Cuenta</string>
+    <string name="username">Usuario</string>
+    <string name="btn_sacarTurno">Sacar nuevo turno</string>
+    <string name="btn_verTurno">Ver mis turnos</string>
 </resources>

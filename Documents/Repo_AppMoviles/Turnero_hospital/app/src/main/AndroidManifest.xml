@@ -21,13 +21,14 @@
         </activity>
         <activity android:name=".ListaEspecialidades" />
         <activity android:name=".Calendario" />
-        <activity android:name=".Formulario"
+        <activity
+            android:name=".Formulario"
             android:parentActivityName=".Principal">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Principal">
-            </meta-data>
+                android:value=".Principal"></meta-data>
         </activity>
+        <activity android:name=".HomeUsuario" />
     </application>
 
 </manifest>

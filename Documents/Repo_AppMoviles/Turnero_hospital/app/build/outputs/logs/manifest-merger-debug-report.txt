@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\afe9219c00a735636e7bd57e521917a4\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\e316478dca41808627615e17bb35d4e4\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e279cee7c1297cfd54b40738e1999044\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff8538b26ca706c0a4136144671c8b6f\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5471d54094136b2c16c80d3c6d437d29\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\1e4e757afc86186d737c7cdb5ae67b71\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\d960b58df51d21e43d9b69a8bc6cfb70\AndroidManifest.xml:17:1-26:12
@@ -17,31 +18,33 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Juan\.gra
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\29308128d07f0b8299f2873f588bd213\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ad142b21c8abeb299a4321857fb79127\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ed0f81ba8c2c8cb51032235186124c4d\AndroidManifest.xml:17:1-31:12
-INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:3:5-51
 		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:5:5-32:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\afe9219c00a735636e7bd57e521917a4\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\afe9219c00a735636e7bd57e521917a4\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\e316478dca41808627615e17bb35d4e4\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\e316478dca41808627615e17bb35d4e4\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e279cee7c1297cfd54b40738e1999044\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e279cee7c1297cfd54b40738e1999044\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff8538b26ca706c0a4136144671c8b6f\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff8538b26ca706c0a4136144671c8b6f\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5471d54094136b2c16c80d3c6d437d29\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5471d54094136b2c16c80d3c6d437d29\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\1e4e757afc86186d737c7cdb5ae67b71\AndroidManifest.xml:26:5-20
@@ -101,15 +104,19 @@ ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Re
 activity#com.example.usuario.turnero_hospital.Formulario
 ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:parentActivityName
-		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:25:13-52
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:26:13-52
 	android:name
-		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:24:19-45
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:25:13-39
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:26:13-29:25
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:27:13-29:56
 	android:value
-		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:28:17-43
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:29:17-43
 	android:name
-		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:27:17-63
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:28:17-63
+activity#com.example.usuario.turnero_hospital.HomeUsuario
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:31:9-49
+	android:name
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:31:19-46
 uses-sdk
 INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
@@ -120,6 +127,8 @@ MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.gradle\cach
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\e316478dca41808627615e17bb35d4e4\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e279cee7c1297cfd54b40738e1999044\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e279cee7c1297cfd54b40738e1999044\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff8538b26ca706c0a4136144671c8b6f\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff8538b26ca706c0a4136144671c8b6f\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5471d54094136b2c16c80d3c6d437d29\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5471d54094136b2c16c80d3c6d437d29\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Juan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\1e4e757afc86186d737c7cdb5ae67b71\AndroidManifest.xml:20:5-43

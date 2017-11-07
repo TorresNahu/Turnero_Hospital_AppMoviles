@@ -38,9 +38,9 @@
             android:parentActivityName="com.example.usuario.turnero_hospital.Principal" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Principal" >
-            </meta-data>
+                android:value=".Principal" />
         </activity>
+        <activity android:name="com.example.usuario.turnero_hospital.HomeUsuario" />
     </application>
 
 </manifest>
