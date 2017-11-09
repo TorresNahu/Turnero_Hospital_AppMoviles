@@ -2,126 +2,73 @@ package com.example.usuario.turnero_hospital;
 
 import android.app.ListActivity;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+
+
+import com.example.usuario.turnero_hospital.Adapter.EspecialidadesAdapter;
+import com.example.usuario.turnero_hospital.Model.Especialidad;
+import com.example.usuario.turnero_hospital.SQLite.ConexionSQLiteOpenHelper;
 
 import java.util.ArrayList;
 
-public class ListaEspecialidades  extends ListActivity implements
-        AdapterView.OnItemClickListener {
+public class ListaEspecialidades  extends AppCompatActivity{
 
-    private DialogInfoAdapter adapter;
-    private DialogInfo dialogInfoToShow;
+    ConexionSQLiteOpenHelper conn;
+    ArrayList<Especialidad> lista;
+    RecyclerView especialidadesRecycler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_especialidades);
+        showToolbar("Especialidades", true);
+        especialidadesRecycler = (RecyclerView) findViewById(R.id.especialidadesRecycler);
 
-        adapter = new DialogInfoAdapter();
+        //Acomodo el recycler view con un layout manager
 
-        setListAdapter(adapter);
-
-        getListView().setOnItemClickListener(this);
-        loadDialogData();
-    }
-    private void loadDialogData() {
+        conn = new ConexionSQLiteOpenHelper(getApplicationContext(), "bd_especialidades", null, 1);
 
 
-        DialogInfo info = new DialogInfo();
-        info.setTitle("Clinica");
+        lista = new ArrayList<>();
 
-        adapter.addDialogInfo(info);
-
-        info = new DialogInfo();
-        info.setTitle("Cardialogo");
-        adapter.addDialogInfo(info);
-
-        info = new DialogInfo();
-        info.setTitle("Dermatologo");
-        adapter.addDialogInfo(info);
-
-        info = new DialogInfo();
-        info.setTitle("Neurologo");
-        adapter.addDialogInfo(info);
-
-        info = new DialogInfo();
-        info.setTitle("Oncologo");
-        adapter.addDialogInfo(info);
-
-
-        info = new DialogInfo();
-        info.setTitle("Pediatra");
-        adapter.addDialogInfo(info);
-
-        adapter.notifyDataSetChanged();
-
-    }
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent intent = new Intent(this, Calendario.class);
-        startActivity(intent);
+        especialidadesRecycler.setLayoutManager(new GridLayoutManager(this, 2));
+        especialidadesRecycler.setHasFixedSize(true);
+        consultarListaEspecialidades();
+        EspecialidadesAdapter especialidadesAdapter = new EspecialidadesAdapter(lista, R.layout.activity_lista_especialidades_item, this);
+        especialidadesRecycler.setAdapter(especialidadesAdapter);
     }
 
-    class DialogInfoAdapter extends BaseAdapter {
-        private ArrayList<DialogInfo> dialogInfos;
-        private LayoutInflater inflater;
 
-        public DialogInfoAdapter() {
-            dialogInfos = new ArrayList<DialogInfo>();
-            inflater = LayoutInflater.from(ListaEspecialidades.this);
+    public void showToolbar(String titulo, boolean atras)
+    {
+        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(titulo);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(atras);
+    }
+
+    //Carga las especialidades
+    public void consultarListaEspecialidades()
+    {
+        SQLiteDatabase db = conn.getReadableDatabase();
+
+        Especialidad especialidad;
+        Cursor cursor = db.rawQuery("SELECT * FROM Especialidades", null);
+
+        while(cursor.moveToNext())
+        {
+            especialidad = new Especialidad();
+            especialidad.setId(cursor.getInt(0));
+            especialidad.setNombre(cursor.getString(1));
+
+            lista.add(especialidad);
         }
-
-        public void addDialogInfo(DialogInfo info) {
-            if (info != null) {
-                dialogInfos.add(info);
-            }
-        }
-
-        @Override
-        public int getCount() {
-            return dialogInfos.size();
-        }
-
-        @Override
-        public Object getItem(int position) {
-            return dialogInfos.get(position);
-        }
-
-        @Override
-        public long getItemId(int position) {
-            return position;
-        }
-
-        class Holder {
-            private TextView txtLabel;
-        }
-
-        @Override
-        public View getView(int position, View convertView, ViewGroup arg2) {
-            Holder holder;
-            if (convertView == null) {
-                convertView = inflater.inflate(R.layout.item_dialog_info, null);
-                holder = new Holder();
-                holder.txtLabel = (TextView) convertView
-                        .findViewById(R.id.txt_item);
-                convertView.setTag(holder);
-            } else {
-                holder = (Holder) convertView.getTag();
-
-            }
-
-            DialogInfo info = (DialogInfo) getItem(position);
-            holder.txtLabel.setText(info.getTitle());
-
-            return convertView;
-        }
-
     }
 }

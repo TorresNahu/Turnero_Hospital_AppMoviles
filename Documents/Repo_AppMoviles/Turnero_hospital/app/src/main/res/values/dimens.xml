@@ -4,4 +4,6 @@
     <dimen name="edittext_registro">10dp</dimen>
     <dimen name="usernameProfileSize">20dp</dimen>
     <dimen name="userImage">160dp</dimen>
+    <dimen name="cardHeight">50dp</dimen>
+    <dimen name="cardWidth">175dp</dimen>
 </resources>

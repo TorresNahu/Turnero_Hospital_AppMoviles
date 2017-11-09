@@ -19,7 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListaEspecialidades" />
+        <activity android:name=".ListaEspecialidades"
+            android:parentActivityName=".HomeUsuario">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeUsuario"></meta-data>
+        </activity>
         <activity android:name=".Calendario" />
         <activity
             android:name=".Formulario"

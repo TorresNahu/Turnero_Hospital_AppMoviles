@@ -31,7 +31,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.usuario.turnero_hospital.ListaEspecialidades" />
+        <activity
+            android:name="com.example.usuario.turnero_hospital.ListaEspecialidades"
+            android:parentActivityName="com.example.usuario.turnero_hospital.HomeUsuario" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeUsuario" />
+        </activity>
         <activity android:name="com.example.usuario.turnero_hospital.Calendario" />
         <activity
             android:name="com.example.usuario.turnero_hospital.Formulario"

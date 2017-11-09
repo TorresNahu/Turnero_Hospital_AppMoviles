@@ -29,7 +29,7 @@ public class Principal extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                executeOpenActivity();
+                OpenActivity();
 
             }
         });
@@ -62,7 +62,7 @@ public class Principal extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    protected void executeOpenActivity() {
+    protected void OpenActivity() {
         // Abrir activity Second sin tomar en cuenta la respuesta
         Intent intent = new Intent(this, HomeUsuario.class);
         startActivity(intent);
