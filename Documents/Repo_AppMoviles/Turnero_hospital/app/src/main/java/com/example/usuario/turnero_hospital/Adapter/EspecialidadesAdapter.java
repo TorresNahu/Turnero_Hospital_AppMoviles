@@ -16,11 +16,12 @@ import java.util.ArrayList;
  * Created by Juan on 08/11/2017.
  */
 
-public class EspecialidadesAdapter extends RecyclerView.Adapter<EspecialidadesAdapter.EspecialidadesViewHolder>{
+public class EspecialidadesAdapter extends RecyclerView.Adapter<EspecialidadesAdapter.EspecialidadesViewHolder> {
 
     private ArrayList<Especialidad> especialidades;
     private int resource;
     private Activity activity;
+
 
     public EspecialidadesAdapter(ArrayList<Especialidad> especialidades, int resource, Activity activity) {
         this.especialidades = especialidades;
@@ -47,6 +48,7 @@ public class EspecialidadesAdapter extends RecyclerView.Adapter<EspecialidadesAd
     }
 
 
+
     public class EspecialidadesViewHolder extends RecyclerView.ViewHolder {
 
         private TextView nombre;
@@ -55,5 +57,6 @@ public class EspecialidadesAdapter extends RecyclerView.Adapter<EspecialidadesAd
             super(itemView);
             nombre = (TextView) itemView.findViewById(R.id.txt_cardItem);
         }
+
     }
 }

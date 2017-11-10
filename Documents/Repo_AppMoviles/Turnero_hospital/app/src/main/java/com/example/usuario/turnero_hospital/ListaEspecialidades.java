@@ -38,8 +38,7 @@ public class ListaEspecialidades  extends AppCompatActivity{
 
         lista = new ArrayList<>();
 
-        especialidadesRecycler.setLayoutManager(new GridLayoutManager(this, 2));
-        especialidadesRecycler.setHasFixedSize(true);
+        especialidadesRecycler.setLayoutManager(new LinearLayoutManager(this));
         consultarListaEspecialidades();
         EspecialidadesAdapter especialidadesAdapter = new EspecialidadesAdapter(lista, R.layout.activity_lista_especialidades_item, this);
         especialidadesRecycler.setAdapter(especialidadesAdapter);
