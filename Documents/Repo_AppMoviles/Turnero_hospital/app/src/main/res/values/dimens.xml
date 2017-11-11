@@ -6,4 +6,5 @@
     <dimen name="userImage">160dp</dimen>
     <dimen name="cardHeight">50dp</dimen>
     <dimen name="cardWidth">175dp</dimen>
+    <dimen name="padding_confirmarTurno">15dp</dimen>
 </resources>

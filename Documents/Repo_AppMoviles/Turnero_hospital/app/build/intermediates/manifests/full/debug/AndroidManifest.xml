@@ -38,7 +38,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeUsuario" />
         </activity>
-        <activity android:name="com.example.usuario.turnero_hospital.Calendario" />
+        <activity
+            android:name="com.example.usuario.turnero_hospital.Calendario"
+            android:parentActivityName="com.example.usuario.turnero_hospital.ListaEspecialidades" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListaEspecialidades" />
+        </activity>
         <activity
             android:name="com.example.usuario.turnero_hospital.Formulario"
             android:parentActivityName="com.example.usuario.turnero_hospital.Principal" >
@@ -47,6 +53,8 @@
                 android:value=".Principal" />
         </activity>
         <activity android:name="com.example.usuario.turnero_hospital.HomeUsuario" />
+        <activity android:name="com.example.usuario.turnero_hospital.ConfirmarTurno" />
+        <activity android:name="com.example.usuario.turnero_hospital.MisTurnos" />
     </application>
 
 </manifest>

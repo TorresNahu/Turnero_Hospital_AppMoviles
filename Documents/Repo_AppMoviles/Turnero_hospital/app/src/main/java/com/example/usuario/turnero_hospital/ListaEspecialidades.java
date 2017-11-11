@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 
 import com.example.usuario.turnero_hospital.Adapter.EspecialidadesAdapter;
@@ -33,15 +34,22 @@ public class ListaEspecialidades  extends AppCompatActivity{
 
         //Acomodo el recycler view con un layout manager
 
-        conn = new ConexionSQLiteOpenHelper(getApplicationContext(), "bd_especialidades", null, 1);
+        conn = new ConexionSQLiteOpenHelper(this);
 
 
         lista = new ArrayList<>();
 
-        especialidadesRecycler.setLayoutManager(new GridLayoutManager(this, 2));
-        especialidadesRecycler.setHasFixedSize(true);
+        especialidadesRecycler.setLayoutManager(new LinearLayoutManager(this));
         consultarListaEspecialidades();
-        EspecialidadesAdapter especialidadesAdapter = new EspecialidadesAdapter(lista, R.layout.activity_lista_especialidades_item, this);
+        final EspecialidadesAdapter especialidadesAdapter = new EspecialidadesAdapter(lista, R.layout.activity_lista_especialidades_item, this);
+        especialidadesAdapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ListaEspecialidades.this, Calendario.class);
+                intent.putExtra("idEspecialidad", lista.get(especialidadesRecycler.getChildAdapterPosition(view)).getId());
+                startActivity(intent);
+            }
+        });
         especialidadesRecycler.setAdapter(especialidadesAdapter);
     }
 

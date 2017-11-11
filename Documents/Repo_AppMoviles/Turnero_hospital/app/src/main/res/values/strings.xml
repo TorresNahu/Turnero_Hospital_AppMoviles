@@ -20,4 +20,11 @@
     <string name="username">Usuario</string>
     <string name="btn_sacarTurno">Sacar nuevo turno</string>
     <string name="btn_verTurno">Ver mis turnos</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="volver">Volver</string>
+    <string name="txt_fechaElegida">Fecha de Turno:</string>
+    <string name="txt_especialidadElegida">Especialidad del Turno:</string>
+    <string name="txt_nombre_confirmar">Nombre:</string>
+    <string name="txt_apellido_confirmar">Apellido:</string>
+    <string name="btn_confirmarTurno">Confirmar Turno</string>
 </resources>

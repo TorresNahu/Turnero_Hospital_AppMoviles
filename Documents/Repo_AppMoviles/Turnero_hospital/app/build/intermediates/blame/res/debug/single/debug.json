@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_confirmar_turno.xml.flat",
+        "source": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\src\\main\\res\\layout\\activity_confirmar_turno.xml"
+    },
+    {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -168,10 +172,6 @@
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_dialog_info.xml.flat",
-        "source": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\src\\main\\res\\layout\\item_dialog_info.xml"
-    },
-    {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\afe9219c00a735636e7bd57e521917a4\\res\\drawable-v21\\avd_show_password.xml"
     },
@@ -266,6 +266,10 @@
     {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_thumb.xml.flat",
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mis_turnos.xml.flat",
+        "source": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\src\\main\\res\\layout\\activity_mis_turnos.xml"
     },
     {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
