@@ -1,3 +1,10 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_login">32dp</dimen>
+    <dimen name="edittext_registro">10dp</dimen>
+    <dimen name="usernameProfileSize">20dp</dimen>
+    <dimen name="userImage">160dp</dimen>
+    <dimen name="cardHeight">50dp</dimen>
+    <dimen name="cardWidth">175dp</dimen>
+    <dimen name="padding_confirmarTurno">15dp</dimen>
 </resources>

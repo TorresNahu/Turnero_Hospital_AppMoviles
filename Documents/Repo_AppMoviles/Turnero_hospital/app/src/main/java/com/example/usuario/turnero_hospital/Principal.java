@@ -10,9 +10,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.InputType;
 import android.text.method.PasswordTransformationMethod;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 
 public class Principal extends AppCompatActivity {
@@ -27,7 +29,7 @@ public class Principal extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                executeOpenActivity();
+                OpenActivity();
 
             }
         });
@@ -44,12 +46,6 @@ public class Principal extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_principal, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -66,9 +62,9 @@ public class Principal extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    protected void executeOpenActivity() {
+    protected void OpenActivity() {
         // Abrir activity Second sin tomar en cuenta la respuesta
-        Intent intent = new Intent(this, ListaEspecialidades.class);
+        Intent intent = new Intent(this, HomeUsuario.class);
         startActivity(intent);
     }
 }

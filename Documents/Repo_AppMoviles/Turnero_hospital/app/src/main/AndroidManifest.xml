@@ -19,15 +19,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListaEspecialidades" />
-        <activity android:name=".Calendario" />
-        <activity android:name=".Formulario"
+        <activity
+            android:name=".ListaEspecialidades"
+            android:parentActivityName=".HomeUsuario">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeUsuario" />
+        </activity>
+        <activity android:name=".Calendario"
+            android:parentActivityName=".ListaEspecialidades">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListaEspecialidades"/>
+        </activity>
+        <activity
+            android:name=".Formulario"
             android:parentActivityName=".Principal">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Principal">
-            </meta-data>
+                android:value=".Principal" />
         </activity>
+        <activity android:name=".HomeUsuario" />
+        <activity android:name=".ConfirmarTurno" />
+        <activity android:name=".MisTurnos"></activity>
     </application>
 
 </manifest>
