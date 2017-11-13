@@ -32,18 +32,24 @@ public class Calendario extends AppCompatActivity {
             }
         });
 
+        //Recuperar el id de especialidad que viene
+        Intent incoming = getIntent();
+        final int id = incoming.getIntExtra("idEspecialidad", 0);
+        final String nombre = incoming.getStringExtra("nombreEspecialidad");
+
+        //Pasar la fecha y el id especialidad a la confirmacion
         btnSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Calendario.this, ConfirmarTurno.class);
                 intent.putExtra("date", date);
+                intent.putExtra("idEspecialidad", id);
+                intent.putExtra("nombreEspecialidad", nombre);
                 startActivity(intent);
             }
         });
 
-        Intent incoming = getIntent();
-        int id = incoming.getIntExtra("idEspecialidad", 0);
-        Toast.makeText(this, "Id pasado: " + id, Toast.LENGTH_LONG).show();
+
     }
 
     public void showToolbar(String titulo, boolean atras)

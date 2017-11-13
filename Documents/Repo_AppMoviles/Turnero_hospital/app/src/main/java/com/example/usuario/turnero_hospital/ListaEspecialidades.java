@@ -47,6 +47,7 @@ public class ListaEspecialidades  extends AppCompatActivity{
             public void onClick(View view) {
                 Intent intent = new Intent(ListaEspecialidades.this, Calendario.class);
                 intent.putExtra("idEspecialidad", lista.get(especialidadesRecycler.getChildAdapterPosition(view)).getId());
+                intent.putExtra("nombreEspecialidad", lista.get(especialidadesRecycler.getChildAdapterPosition(view)).getNombre());
                 startActivity(intent);
             }
         });

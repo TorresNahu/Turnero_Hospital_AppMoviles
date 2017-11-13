@@ -27,4 +27,5 @@
     <string name="txt_nombre_confirmar">Nombre:</string>
     <string name="txt_apellido_confirmar">Apellido:</string>
     <string name="btn_confirmarTurno">Confirmar Turno</string>
+    <string name="mensajeTurnoGuardado">El turno se guardo correctamente</string>
 </resources>

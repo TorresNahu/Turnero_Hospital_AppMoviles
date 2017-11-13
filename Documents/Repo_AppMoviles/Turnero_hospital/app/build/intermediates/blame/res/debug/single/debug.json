@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\afe9219c00a735636e7bd57e521917a4\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -158,6 +162,10 @@
     {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\afe9219c00a735636e7bd57e521917a4\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\e316478dca41808627615e17bb35d4e4\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
