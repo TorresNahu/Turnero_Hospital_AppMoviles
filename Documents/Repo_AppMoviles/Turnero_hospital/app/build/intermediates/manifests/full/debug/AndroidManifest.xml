@@ -51,8 +51,20 @@
                 android:value=".Principal" />
         </activity>
         <activity android:name="com.example.usuario.turnero_hospital.HomeUsuario" />
-        <activity android:name="com.example.usuario.turnero_hospital.ConfirmarTurno" />
-        <activity android:name="com.example.usuario.turnero_hospital.MisTurnos" />
+        <activity
+            android:name="com.example.usuario.turnero_hospital.ConfirmarTurno"
+            android:parentActivityName="com.example.usuario.turnero_hospital.Calendario" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Calendario" />
+        </activity>
+        <activity
+            android:name="com.example.usuario.turnero_hospital.MisTurnos"
+            android:parentActivityName="com.example.usuario.turnero_hospital.HomeUsuario" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeUsuario" />
+        </activity>
     </application>
 
 </manifest>

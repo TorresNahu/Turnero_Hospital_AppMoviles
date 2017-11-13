@@ -47,7 +47,12 @@
                 android:value=".Calendario"/>
         </activity>
 
-        <activity android:name=".MisTurnos"></activity>
+        <activity android:name=".MisTurnos"
+            android:parentActivityName=".HomeUsuario">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeUsuario"/>
+        </activity>
     </application>
 
 </manifest>

@@ -845,7 +845,6 @@ int id line1 0x7f0d00b5
 int id line3 0x7f0d00b7
 int id linearLayout 0x7f0d007a
 int id listMode 0x7f0d0018
-int id listView_TurnoGuardados 0x7f0d0092
 int id list_item 0x7f0d004f
 int id masked 0x7f0d00bc
 int id media_actions 0x7f0d00a9
@@ -930,6 +929,7 @@ int id topPanel 0x7f0d005d
 int id touch_outside 0x7f0d0099
 int id transition_current_scene 0x7f0d000b
 int id transition_scene_layoutid_cache 0x7f0d000c
+int id turnosRecycler 0x7f0d0092
 int id txt_apellido 0x7f0d0083
 int id txt_apellidoPersona 0x7f0d0084
 int id txt_cardItem 0x7f0d0091
@@ -1026,6 +1026,7 @@ int layout select_dialog_multichoice_material 0x7f040041
 int layout select_dialog_singlechoice_material 0x7f040042
 int layout support_simple_spinner_dropdown_item 0x7f040043
 int layout toolbar 0x7f040044
+int layout turnos_card_view 0x7f040045
 int menu menu_principal 0x7f0e0000
 int mipmap ic_launcher 0x7f030000
 int mipmap ic_launcher_round 0x7f030001

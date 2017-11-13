@@ -18,11 +18,21 @@ public class HomeUsuario extends AppCompatActivity {
         setContentView(R.layout.activity_homeusuario);
 
         Button btn_nuevoTurno = (Button) findViewById(R.id.btn_sacarTurno);
+        Button btn_verTurnos = (Button) findViewById(R.id.btn_verTurnos);
+
         btn_nuevoTurno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeUsuario.this, ListaEspecialidades.class);
                 startActivity(intent);
+            }
+        });
+
+        btn_verTurnos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomeUsuario.this, MisTurnos.class);
+                startActivity(i);
             }
         });
     }

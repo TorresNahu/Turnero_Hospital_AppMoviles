@@ -3360,7 +3360,6 @@ containing a value of this type.
         public static final int line3=0x7f0d00b7;
         public static final int linearLayout=0x7f0d007a;
         public static final int listMode=0x7f0d0018;
-        public static final int listView_TurnoGuardados=0x7f0d0092;
         public static final int list_item=0x7f0d004f;
         public static final int masked=0x7f0d00bc;
         public static final int media_actions=0x7f0d00a9;
@@ -3445,6 +3444,7 @@ containing a value of this type.
         public static final int touch_outside=0x7f0d0099;
         public static final int transition_current_scene=0x7f0d000b;
         public static final int transition_scene_layoutid_cache=0x7f0d000c;
+        public static final int turnosRecycler=0x7f0d0092;
         public static final int txt_apellido=0x7f0d0083;
         public static final int txt_apellidoPersona=0x7f0d0084;
         public static final int txt_cardItem=0x7f0d0091;
@@ -3545,6 +3545,7 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f040042;
         public static final int support_simple_spinner_dropdown_item=0x7f040043;
         public static final int toolbar=0x7f040044;
+        public static final int turnos_card_view=0x7f040045;
     }
     public static final class menu {
         public static final int menu_principal=0x7f0e0000;

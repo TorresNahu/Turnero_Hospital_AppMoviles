@@ -19,7 +19,7 @@ import com.example.usuario.turnero_hospital.SQLite.ConexionSQLiteOpenHelper;
 
 import java.util.ArrayList;
 
-public class ListaEspecialidades  extends AppCompatActivity{
+public class ListaEspecialidades extends AppCompatActivity{
 
     ConexionSQLiteOpenHelper conn;
     ArrayList<Especialidad> lista;
@@ -53,6 +53,7 @@ public class ListaEspecialidades  extends AppCompatActivity{
         });
         especialidadesRecycler.setAdapter(especialidadesAdapter);
     }
+
 
 
     public void showToolbar(String titulo, boolean atras)

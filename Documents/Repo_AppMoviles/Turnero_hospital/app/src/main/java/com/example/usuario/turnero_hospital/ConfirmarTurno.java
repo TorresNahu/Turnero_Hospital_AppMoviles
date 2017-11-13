@@ -30,6 +30,7 @@ public class ConfirmarTurno extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmar_turno);
+        showToolbar("Confirmar turno", true);
 
         txt_fechaSeleccionada = (TextView) findViewById(R.id.txt_fechaSeleccionada);
         txt_especialidadSeleccionada = (TextView) findViewById(R.id.txt_especialidadSeleccionada);
@@ -89,5 +90,13 @@ public class ConfirmarTurno extends AppCompatActivity {
             Log.e("ConfirmarTurno", ex.getMessage());
         }
 
+    }
+
+    public void showToolbar(String titulo, boolean atras)
+    {
+        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(titulo);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(atras);
     }
 }

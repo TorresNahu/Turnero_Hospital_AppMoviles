@@ -176,6 +176,10 @@
         "source": "C:\\Users\\Nahu\\.android\\build-cache\\e06064fa9e06aedc22344474ea17578c3a00a1f5\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout\\turnos_card_view.xml",
+        "source": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\src\\main\\res\\layout\\turnos_card_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
