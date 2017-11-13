@@ -66,6 +66,11 @@ public class ConfirmarTurno extends AppCompatActivity {
                 catch (SQLiteException ex)
                 {Log.e("SQLiteERROR", "Error al insertar el turno: "+ ex.getMessage());}
 
+                //Volver al Home
+                Intent goToHome = new Intent(ConfirmarTurno.this, HomeUsuario.class);
+                goToHome.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(goToHome);
+
             }
         });
     }

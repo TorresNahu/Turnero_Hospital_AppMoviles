@@ -27,8 +27,7 @@ public class Calendario extends AppCompatActivity {
         calendarioTurnoView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                date = dayOfMonth + "/" + (month+1) + "/" + year;
-
+                date = dayOfMonth + "/" + (month+1) + "/" + year; //al mes se le suma una porque android toma los meses de 0 (Enero) al 11 (Diciembre).
             }
         });
 
@@ -51,6 +50,7 @@ public class Calendario extends AppCompatActivity {
 
 
     }
+
 
     public void showToolbar(String titulo, boolean atras)
     {
