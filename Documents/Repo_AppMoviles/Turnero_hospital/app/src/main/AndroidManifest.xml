@@ -40,8 +40,19 @@
                 android:value=".Principal" />
         </activity>
         <activity android:name=".HomeUsuario" />
-        <activity android:name=".ConfirmarTurno" />
-        <activity android:name=".MisTurnos"></activity>
+        <activity android:name=".ConfirmarTurno"
+            android:parentActivityName=".Calendario">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Calendario"/>
+        </activity>
+
+        <activity android:name=".MisTurnos"
+            android:parentActivityName=".HomeUsuario">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeUsuario"/>
+        </activity>
     </application>
 
 </manifest>

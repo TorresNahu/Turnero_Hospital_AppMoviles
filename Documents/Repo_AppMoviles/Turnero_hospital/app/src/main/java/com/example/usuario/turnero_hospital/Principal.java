@@ -66,5 +66,7 @@ public class Principal extends AppCompatActivity {
         // Abrir activity Second sin tomar en cuenta la respuesta
         Intent intent = new Intent(this, HomeUsuario.class);
         startActivity(intent);
+        //Para cerrar la activity principal.
+        finish();
     }
 }

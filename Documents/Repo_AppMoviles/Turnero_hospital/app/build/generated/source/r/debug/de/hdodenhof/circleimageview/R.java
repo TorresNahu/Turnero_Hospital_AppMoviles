@@ -8,18 +8,18 @@ package de.hdodenhof.circleimageview;
 
 public final class R {
     public static final class attr {
-        public static final int civ_border_color = 0x7f03004d;
-        public static final int civ_border_overlay = 0x7f03004e;
-        public static final int civ_border_width = 0x7f03004f;
-        public static final int civ_circle_background_color = 0x7f030050;
-        public static final int civ_fill_color = 0x7f030051;
+        public static final int civ_border_color = 0x7f0100de;
+        public static final int civ_border_overlay = 0x7f0100df;
+        public static final int civ_border_width = 0x7f0100dd;
+        public static final int civ_circle_background_color = 0x7f0100e1;
+        public static final int civ_fill_color = 0x7f0100e0;
     }
     public static final class styleable {
-        public static final int[] CircleImageView = { 0x7f03004d, 0x7f03004e, 0x7f03004f, 0x7f030050, 0x7f030051 };
-        public static final int CircleImageView_civ_border_color = 0;
-        public static final int CircleImageView_civ_border_overlay = 1;
-        public static final int CircleImageView_civ_border_width = 2;
-        public static final int CircleImageView_civ_circle_background_color = 3;
-        public static final int CircleImageView_civ_fill_color = 4;
+        public static final int[] CircleImageView = { 0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0, 0x7f0100e1 };
+        public static final int CircleImageView_civ_border_color = 1;
+        public static final int CircleImageView_civ_border_overlay = 2;
+        public static final int CircleImageView_civ_border_width = 0;
+        public static final int CircleImageView_civ_circle_background_color = 4;
+        public static final int CircleImageView_civ_fill_color = 3;
     }
 }

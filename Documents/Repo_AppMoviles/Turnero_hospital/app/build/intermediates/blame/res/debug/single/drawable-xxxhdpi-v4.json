@@ -1,19 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\490cfc10f857db5513d9ca56693b7edaf883f18d\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
@@ -24,20 +12,12 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\490cfc10f857db5513d9ca56693b7edaf883f18d\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\e06064fa9e06aedc22344474ea17578c3a00a1f5\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
@@ -56,8 +36,128 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\490cfc10f857db5513d9ca56693b7edaf883f18d\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\490cfc10f857db5513d9ca56693b7edaf883f18d\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\e06064fa9e06aedc22344474ea17578c3a00a1f5\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
@@ -68,32 +168,36 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -104,11 +208,19 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     }
 ]
