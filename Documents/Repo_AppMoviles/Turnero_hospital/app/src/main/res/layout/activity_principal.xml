@@ -29,10 +29,10 @@
         android:layout_marginTop="80sp">
 
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/username"
+            android:id="@+id/dni"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edit_nombre" />
+            android:hint="@string/edit_dni" />
 
     </android.support.design.widget.TextInputLayout>
 

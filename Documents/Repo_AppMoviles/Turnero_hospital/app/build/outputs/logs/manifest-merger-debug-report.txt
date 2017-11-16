@@ -1,144 +1,152 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:3:5-51
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:5:5-55:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nahu\.android\build-cache\a072f5c43c21b7c2532b6d7f7ff6c63f9d4e8e63\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Nahu\.android\build-cache\e06064fa9e06aedc22344474ea17578c3a00a1f5\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Nahu\.android\build-cache\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Nahu\.android\build-cache\14c0d22ab160418b2d85be49acc308f1206061df\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Nahu\.android\build-cache\9cd581340708fc20ad5a7a1fb52d2f62c99e9046\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Nahu\.android\build-cache\39abc5c00854e8596921da534b4e62ec8567133e\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Nahu\.android\build-cache\072d06ae86a0ad0c00e8fd84b21138cc510c90a5\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Nahu\.android\build-cache\4e2033ef3709719620520e9801ce768b0bf0159c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Nahu\.android\build-cache\9805517be6c2b19a23b41e190f9b34a7a67b2087\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Nahu\.android\build-cache\dd26103ba7d1948ecdda1e706774e739e3a18132\output\AndroidManifest.xml:29:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Nahu\.android\build-cache\b6c18bfd4679e9cba90a455145c876bf7fb38f1f\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Nahu\.android\build-cache\7656338678e49d8045591ce5f5ae73d30f7da160\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Nahu\.android\build-cache\d05c388a69b4314b2c2cecb9add613cec34e2569\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Nahu\.android\build-cache\e6ca859eeafdf59249a2ffd993bc3ccae9865b2f\output\AndroidManifest.xml:26:5-20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:7:5-62:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.android\build-cache\17e1992d6689e0f0e5368b6f61954b5491719b0a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Juan\.android\build-cache\09931cd31f873601e9c792e2a262c41f9e790f7c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.android\build-cache\90474044011e7a73f288bc9ebe6b73379bc203e8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.android\build-cache\93cdca0fad78291156f2ac0b1b57f56c8af039f0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Juan\.android\build-cache\446b7786343fd2f9cb0ae65b592656db41d14506\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Juan\.android\build-cache\074e260027acc6c539df7e8cae20a70ee00c8197\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Juan\.android\build-cache\3df503ab6a897cb09e1b617fb7246c4c07de46f2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Juan\.android\build-cache\5cf1474c6a2ebb8864d05a9c628be01e413ab255\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Juan\.android\build-cache\e65aad87a69758a03bd87853dbdb1ed03f88ddfb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Juan\.android\build-cache\d786d16ea3400dc65ee12d1f2c61a01017839db8\output\AndroidManifest.xml:29:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.android\build-cache\3cf16e38d4c96c1c452a1d1c796730da02f857cc\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Juan\.android\build-cache\dc1360e0e19576d80565649e5b3ab4fb006b3acb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Juan\.android\build-cache\1dc564e12199451379cc69ba4c1926256e7cf893\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Juan\.android\build-cache\ffaa06b18f36b195dbbd9896bd6005a87282c5b3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Juan\.android\build-cache\05579dba4e97b48e7b33def1507b096547849c8f\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.usuario.turnero_hospital.Principal
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:14:9-24:20
 	android:label
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:16:13-45
+	android:noHistory
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:18:13-37
 	android:theme
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:17:13-56
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:13:13-38
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:15:13-38
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.example.usuario.turnero_hospital.ListaEspecialidades
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:parentActivityName
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:24:13-54
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:27:13-54
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:23:13-48
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:26:13-48
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:25:13-27:48
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:28:13-30:48
 	android:value
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:27:17-45
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:30:17-45
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:26:17-63
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:29:17-63
 activity#com.example.usuario.turnero_hospital.Calendario
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:29:9-34:20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:parentActivityName
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:30:13-62
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:34:13-62
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:29:19-45
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:33:13-39
 activity#com.example.usuario.turnero_hospital.Formulario
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:35:9-41:20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:39:9-45:20
 	android:parentActivityName
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:37:13-52
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:41:13-52
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:36:13-39
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:40:13-39
 activity#com.example.usuario.turnero_hospital.HomeUsuario
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:42:9-49
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:46:9-49
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:42:19-46
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:46:19-46
 activity#com.example.usuario.turnero_hospital.ConfirmarTurno
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:43:9-48:20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:47:9-53:20
 	android:parentActivityName
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:44:13-53
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:49:13-53
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:43:19-49
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:48:13-43
 activity#com.example.usuario.turnero_hospital.MisTurnos
-ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:50:9-54:20
+ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:55:9-61:20
 	android:parentActivityName
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:51:13-54
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:57:13-54
 	android:name
-		ADDED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:50:19-44
+		ADDED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml:56:13-38
 uses-sdk
-INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nahu\.android\build-cache\a072f5c43c21b7c2532b6d7f7ff6c63f9d4e8e63\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\Nahu\.android\build-cache\e06064fa9e06aedc22344474ea17578c3a00a1f5\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Nahu\.android\build-cache\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Nahu\.android\build-cache\14c0d22ab160418b2d85be49acc308f1206061df\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Nahu\.android\build-cache\9cd581340708fc20ad5a7a1fb52d2f62c99e9046\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Nahu\.android\build-cache\39abc5c00854e8596921da534b4e62ec8567133e\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Nahu\.android\build-cache\072d06ae86a0ad0c00e8fd84b21138cc510c90a5\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Nahu\.android\build-cache\4e2033ef3709719620520e9801ce768b0bf0159c\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Nahu\.android\build-cache\9805517be6c2b19a23b41e190f9b34a7a67b2087\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Nahu\.android\build-cache\dd26103ba7d1948ecdda1e706774e739e3a18132\output\AndroidManifest.xml:21:5-23:61
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Nahu\.android\build-cache\b6c18bfd4679e9cba90a455145c876bf7fb38f1f\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Nahu\.android\build-cache\62027384713d092167e5649182045caba4cf4c2c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Nahu\.android\build-cache\7656338678e49d8045591ce5f5ae73d30f7da160\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Nahu\.android\build-cache\d05c388a69b4314b2c2cecb9add613cec34e2569\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Nahu\.android\build-cache\e6ca859eeafdf59249a2ffd993bc3ccae9865b2f\output\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Juan\.android\build-cache\17e1992d6689e0f0e5368b6f61954b5491719b0a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Juan\.android\build-cache\09931cd31f873601e9c792e2a262c41f9e790f7c\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.android\build-cache\90474044011e7a73f288bc9ebe6b73379bc203e8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.android\build-cache\93cdca0fad78291156f2ac0b1b57f56c8af039f0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Juan\.android\build-cache\446b7786343fd2f9cb0ae65b592656db41d14506\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Juan\.android\build-cache\074e260027acc6c539df7e8cae20a70ee00c8197\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Juan\.android\build-cache\3df503ab6a897cb09e1b617fb7246c4c07de46f2\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Juan\.android\build-cache\5cf1474c6a2ebb8864d05a9c628be01e413ab255\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Juan\.android\build-cache\e65aad87a69758a03bd87853dbdb1ed03f88ddfb\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Juan\.android\build-cache\d786d16ea3400dc65ee12d1f2c61a01017839db8\output\AndroidManifest.xml:21:5-23:61
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Juan\.android\build-cache\3cf16e38d4c96c1c452a1d1c796730da02f857cc\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Juan\.android\build-cache\5153abaefbd1d3c4ba25c1f8cb8e187ac1c7bdf2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Juan\.android\build-cache\dc1360e0e19576d80565649e5b3ab4fb006b3acb\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Juan\.android\build-cache\1dc564e12199451379cc69ba4c1926256e7cf893\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Juan\.android\build-cache\ffaa06b18f36b195dbbd9896bd6005a87282c5b3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Juan\.android\build-cache\05579dba4e97b48e7b33def1507b096547849c8f\output\AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Nahu\.android\build-cache\e06064fa9e06aedc22344474ea17578c3a00a1f5\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Juan\.android\build-cache\09931cd31f873601e9c792e2a262c41f9e790f7c\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nahu\Documents\Repo_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Juan\StudioProjects\Turnero_Hospital_AppMoviles\Documents\Repo_AppMoviles\Turnero_hospital\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Nahu\.android\build-cache\e06064fa9e06aedc22344474ea17578c3a00a1f5\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Nahu\.android\build-cache\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Nahu\.android\build-cache\14c0d22ab160418b2d85be49acc308f1206061df\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Nahu\.android\build-cache\9cd581340708fc20ad5a7a1fb52d2f62c99e9046\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Nahu\.android\build-cache\39abc5c00854e8596921da534b4e62ec8567133e\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Nahu\.android\build-cache\072d06ae86a0ad0c00e8fd84b21138cc510c90a5\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Nahu\.android\build-cache\4e2033ef3709719620520e9801ce768b0bf0159c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Nahu\.android\build-cache\9805517be6c2b19a23b41e190f9b34a7a67b2087\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Nahu\.android\build-cache\dd26103ba7d1948ecdda1e706774e739e3a18132\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Nahu\.android\build-cache\62027384713d092167e5649182045caba4cf4c2c\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Nahu\.android\build-cache\7656338678e49d8045591ce5f5ae73d30f7da160\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Nahu\.android\build-cache\d05c388a69b4314b2c2cecb9add613cec34e2569\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Nahu\.android\build-cache\e6ca859eeafdf59249a2ffd993bc3ccae9865b2f\output\AndroidManifest.xml:22:5-24:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Juan\.android\build-cache\09931cd31f873601e9c792e2a262c41f9e790f7c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Juan\.android\build-cache\90474044011e7a73f288bc9ebe6b73379bc203e8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Juan\.android\build-cache\93cdca0fad78291156f2ac0b1b57f56c8af039f0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Juan\.android\build-cache\446b7786343fd2f9cb0ae65b592656db41d14506\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Juan\.android\build-cache\074e260027acc6c539df7e8cae20a70ee00c8197\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Juan\.android\build-cache\3df503ab6a897cb09e1b617fb7246c4c07de46f2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Juan\.android\build-cache\5cf1474c6a2ebb8864d05a9c628be01e413ab255\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Juan\.android\build-cache\e65aad87a69758a03bd87853dbdb1ed03f88ddfb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Juan\.android\build-cache\d786d16ea3400dc65ee12d1f2c61a01017839db8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Juan\.android\build-cache\5153abaefbd1d3c4ba25c1f8cb8e187ac1c7bdf2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Juan\.android\build-cache\dc1360e0e19576d80565649e5b3ab4fb006b3acb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Juan\.android\build-cache\1dc564e12199451379cc69ba4c1926256e7cf893\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Juan\.android\build-cache\ffaa06b18f36b195dbbd9896bd6005a87282c5b3\output\AndroidManifest.xml:22:5-24:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Nahu\.android\build-cache\e06064fa9e06aedc22344474ea17578c3a00a1f5\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Juan\.android\build-cache\09931cd31f873601e9c792e2a262c41f9e790f7c\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Nahu\.android\build-cache\e06064fa9e06aedc22344474ea17578c3a00a1f5\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Juan\.android\build-cache\09931cd31f873601e9c792e2a262c41f9e790f7c\output\AndroidManifest.xml:26:9-47

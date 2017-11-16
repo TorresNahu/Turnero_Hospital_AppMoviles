@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",

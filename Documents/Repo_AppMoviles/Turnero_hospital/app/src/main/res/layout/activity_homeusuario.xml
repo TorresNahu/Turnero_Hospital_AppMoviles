@@ -12,6 +12,15 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="showPopup"
+            android:src="@drawable/ic_menu"/>
 
             <LinearLayout
                 android:id="@+id/toolbar_homeusuario"
@@ -63,4 +72,6 @@
         android:layout_marginLeft="@dimen/padding_login"
         android:layout_marginRight="@dimen/padding_login"
         android:theme="@style/RaisedButton"/>
+
+
 </android.support.design.widget.CoordinatorLayout>

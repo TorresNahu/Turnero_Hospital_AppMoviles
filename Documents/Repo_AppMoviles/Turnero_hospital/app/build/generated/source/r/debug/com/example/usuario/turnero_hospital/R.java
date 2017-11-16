@@ -3257,7 +3257,7 @@ containing a value of this type.
         public static final int design_password_eye=0x7f020059;
         public static final int design_snackbar_background=0x7f02005a;
         public static final int genericuser=0x7f02005b;
-        public static final int heart=0x7f02005c;
+        public static final int ic_menu=0x7f02005c;
         public static final int navigation_empty_icon=0x7f02005d;
         public static final int notification_action_background=0x7f02005e;
         public static final int notification_bg=0x7f02005f;
@@ -3290,7 +3290,6 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0068;
         public static final int action_mode_bar_stub=0x7f0d0067;
         public static final int action_mode_close_button=0x7f0d004a;
-        public static final int action_settings=0x7f0d00bd;
         public static final int action_text=0x7f0d00a5;
         public static final int actions=0x7f0d00b3;
         public static final int activity_chooser_view_content=0x7f0d004b;
@@ -3332,6 +3331,7 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0d009f;
         public static final int design_navigation_view=0x7f0d009e;
         public static final int disableHome=0x7f0d001b;
+        public static final int dni=0x7f0d0093;
         public static final int edit_query=0x7f0d006d;
         public static final int end=0x7f0d0032;
         public static final int end_padder=0x7f0d00b9;
@@ -3353,6 +3353,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f0d0043;
         public static final int image=0x7f0d004d;
         public static final int info=0x7f0d00b0;
+        public static final int item_logOut=0x7f0d00bd;
         public static final int item_touch_helper_previous_elevation=0x7f0d0005;
         public static final int largeLabel=0x7f0d0098;
         public static final int left=0x7f0d0034;
@@ -3456,7 +3457,6 @@ containing a value of this type.
         public static final int txt_nombrePersona=0x7f0d0082;
         public static final int up=0x7f0d000d;
         public static final int useLogo=0x7f0d0020;
-        public static final int username=0x7f0d0093;
         public static final int usernameProfile=0x7f0d008c;
         public static final int view_offset_helper=0x7f0d000e;
         public static final int visible=0x7f0d00bb;
@@ -3548,7 +3548,7 @@ containing a value of this type.
         public static final int turnos_card_view=0x7f040045;
     }
     public static final class menu {
-        public static final int menu_principal=0x7f0e0000;
+        public static final int popup_menu=0x7f0e0000;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -3586,19 +3586,19 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int action_settings=0x7f070021;
-        public static final int app_name=0x7f070022;
-        public static final int appbar_scrolling_view_behavior=0x7f070023;
-        public static final int bottom_sheet_behavior=0x7f070024;
-        public static final int btn_confirmarTurno=0x7f070025;
-        public static final int btn_crearCuenta=0x7f070026;
-        public static final int btn_login=0x7f070027;
-        public static final int btn_registro=0x7f070028;
-        public static final int btn_sacarTurno=0x7f070029;
-        public static final int btn_verTurno=0x7f07002a;
-        public static final int character_counter_pattern=0x7f07002b;
-        public static final int edit_nombre=0x7f07002c;
-        public static final int edit_password=0x7f07002d;
+        public static final int app_name=0x7f070021;
+        public static final int appbar_scrolling_view_behavior=0x7f070022;
+        public static final int bottom_sheet_behavior=0x7f070023;
+        public static final int btn_confirmarTurno=0x7f070024;
+        public static final int btn_crearCuenta=0x7f070025;
+        public static final int btn_login=0x7f070026;
+        public static final int btn_registro=0x7f070027;
+        public static final int btn_sacarTurno=0x7f070028;
+        public static final int btn_verTurno=0x7f070029;
+        public static final int character_counter_pattern=0x7f07002a;
+        public static final int edit_dni=0x7f07002b;
+        public static final int edit_password=0x7f07002c;
+        public static final int logOut=0x7f07002d;
         public static final int mensajeTurnoGuardado=0x7f07002e;
         public static final int password_toggle_content_description=0x7f07002f;
         public static final int path_password_eye=0x7f070030;

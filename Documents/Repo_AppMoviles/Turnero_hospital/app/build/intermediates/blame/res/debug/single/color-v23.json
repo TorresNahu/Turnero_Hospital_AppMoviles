@@ -1,23 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_edittext.xml"
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
@@ -36,8 +24,8 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
@@ -52,24 +40,12 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\490cfc10f857db5513d9ca56693b7edaf883f18d\\output\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
         "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
         "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\Nahu\\.android\\build-cache\\e06064fa9e06aedc22344474ea17578c3a00a1f5\\output\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
@@ -80,11 +56,79 @@
         "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\490cfc10f857db5513d9ca56693b7edaf883f18d\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\09931cd31f873601e9c792e2a262c41f9e790f7c\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Google Drive\\UTN2017\\APPM\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Usuario\\.android\\build-cache\\08815e390ddcfb14fedf30cdd10d8cc38c655fd2\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Juan\\.android\\build-cache\\90474044011e7a73f288bc9ebe6b73379bc203e8\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Nahu\\.android\\build-cache\\659c32ad14e9abf8dacb4cc7b4e3e328146038a3\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     }
 ]

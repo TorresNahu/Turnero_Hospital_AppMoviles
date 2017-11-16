@@ -1,7 +1,10 @@
 package com.example.usuario.turnero_hospital;
 
 import android.app.Application;
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,18 +13,42 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.InputType;
 import android.text.method.PasswordTransformationMethod;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class Principal extends AppCompatActivity {
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+import com.example.usuario.turnero_hospital.Model.Usuario;
+import com.google.gson.JsonObject;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.w3c.dom.Text;
+
+import java.lang.reflect.Method;
+import java.util.HashMap;
+
+public class Principal extends AppCompatActivity implements Response.Listener<JSONObject>, Response.ErrorListener {
+    TextInputEditText dni, password;
+    RequestQueue request;
+    ProgressDialog progress;
+    JsonObjectRequest jsonObjectRequest;
+    SessionManager session;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        request = Volley.newRequestQueue(this);
         setContentView(R.layout.activity_principal);
 
         Button btLogin = (Button) findViewById(R.id.btn_login);
@@ -29,7 +56,7 @@ public class Principal extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                OpenActivity();
+                Login();
 
             }
         });
@@ -47,26 +74,53 @@ public class Principal extends AppCompatActivity {
     }
 
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    protected void Login() {
+        dni = (TextInputEditText) findViewById(R.id.dni);
+        password = (TextInputEditText) findViewById(R.id.password);
+        if (dni.getText().toString().matches("") || password.getText().toString().matches("")) {
+            Toast.makeText(this, "Ingrese datos de inicio de sesion", Toast.LENGTH_LONG).show();
+        } else {
+            String url = "http://www.turnerorest.somee.com/Turnero/ObtenerUsuario/" + dni.getText().toString() + "/" + password.getText().toString();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+            progress = new ProgressDialog(this);
+            progress.setMessage("Iniciando Sesion...");
+            progress.show();
+
+            jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
+            request.add(jsonObjectRequest);
         }
 
-        return super.onOptionsItemSelected(item);
     }
 
-    protected void OpenActivity() {
-        // Abrir activity Second sin tomar en cuenta la respuesta
+    @Override
+    public void onErrorResponse(VolleyError error) {
+        Toast.makeText(this, "Datos incorrectos. Por favor, corrija la informacion", Toast.LENGTH_LONG).show();
+        Log.d("ERROR al consultar: ", error.toString());
+        progress.hide();
+    }
+
+    @Override
+    public void onResponse(JSONObject response) {
+        Usuario usuario = null;
+        JSONObject json;
+        usuario = new Usuario();
+
+        json = response.optJSONObject("usuario");
+        usuario.setId(json.optInt("idUsuario"));
+        usuario.setNombre(json.optString("nombre"));
+        usuario.setApellido(json.optString("apellido"));
+        usuario.setDni(json.optInt("dni"));
+
+        //Guardo el inicio de sesion
+        session = new SessionManager(getApplicationContext());
+        session.createLoginSession(usuario.getId(), usuario.getNombre(), usuario.getApellido(), usuario.getDni());
+
+        progress.dismiss();
+
         Intent intent = new Intent(this, HomeUsuario.class);
         startActivity(intent);
         //Para cerrar la activity principal.
         finish();
+
     }
 }

@@ -1,4 +1,4 @@
-#Mon Nov 13 15:47:34 ART 2017
-base.0=C\:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu Nov 16 18:36:17 ART 2017
+base.0=C\:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\Users\\Nahu\\Documents\\Repo_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\Juan\\StudioProjects\\Turnero_Hospital_AppMoviles\\Documents\\Repo_AppMoviles\\Turnero_hospital\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

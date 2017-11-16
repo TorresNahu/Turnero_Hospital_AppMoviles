@@ -27,7 +27,7 @@ public class MisTurnos extends AppCompatActivity {
         setContentView(R.layout.activity_mis_turnos);
         showToolbar("Mis Turnos", true);
 
-        turnosRecycler = (RecyclerView) findViewById(R.id.especialidadesRecycler);
+        turnosRecycler = (RecyclerView) findViewById(R.id.turnosRecycler);
 
         //Acomodo el recycler view con un layout manager
         conn = new ConexionSQLiteOpenHelper(this);
