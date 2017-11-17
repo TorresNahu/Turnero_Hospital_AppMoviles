@@ -55,7 +55,8 @@
             android:id="@+id/registro_dni"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/registro_dni" />
+            android:hint="@string/registro_dni"
+            android:inputType="number"/>
 
     </android.support.design.widget.TextInputLayout>
 

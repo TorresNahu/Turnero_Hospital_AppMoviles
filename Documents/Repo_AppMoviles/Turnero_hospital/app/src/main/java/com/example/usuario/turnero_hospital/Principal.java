@@ -1,24 +1,12 @@
 package com.example.usuario.turnero_hospital;
 
-import android.app.Application;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.text.InputType;
-import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -29,14 +17,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.usuario.turnero_hospital.Model.Usuario;
-import com.google.gson.JsonObject;
 
-import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
-
-import java.lang.reflect.Method;
-import java.util.HashMap;
 
 public class Principal extends AppCompatActivity implements Response.Listener<JSONObject>, Response.ErrorListener {
     TextInputEditText dni, password;
@@ -72,7 +54,6 @@ public class Principal extends AppCompatActivity implements Response.Listener<JS
         });
 
     }
-
 
     protected void Login() {
         dni = (TextInputEditText) findViewById(R.id.dni);
@@ -123,4 +104,6 @@ public class Principal extends AppCompatActivity implements Response.Listener<JS
         finish();
 
     }
+
+
 }

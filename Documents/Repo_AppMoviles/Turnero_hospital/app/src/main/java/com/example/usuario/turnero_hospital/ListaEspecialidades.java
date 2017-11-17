@@ -1,20 +1,14 @@
 package com.example.usuario.turnero_hospital;
 
-import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
-
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -24,8 +18,6 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.usuario.turnero_hospital.Adapter.EspecialidadesAdapter;
 import com.example.usuario.turnero_hospital.Model.Especialidad;
-import com.example.usuario.turnero_hospital.SQLite.ConexionSQLiteOpenHelper;
-import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
