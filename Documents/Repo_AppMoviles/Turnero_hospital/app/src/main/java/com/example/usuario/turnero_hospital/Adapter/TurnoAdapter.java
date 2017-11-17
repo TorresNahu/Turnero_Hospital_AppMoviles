@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.example.usuario.turnero_hospital.Model.Turno;
 import com.example.usuario.turnero_hospital.R;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 /**
@@ -22,6 +23,8 @@ public class TurnoAdapter extends RecyclerView.Adapter<TurnoAdapter.TurnoViewHol
     private int resource;
     private Activity activity;
     private View.OnClickListener listener;
+
+    SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     public TurnoAdapter(ArrayList<Turno> turnos, int resource, Activity activity){
         this.turnos = turnos;
@@ -39,7 +42,8 @@ public class TurnoAdapter extends RecyclerView.Adapter<TurnoAdapter.TurnoViewHol
     @Override
     public void onBindViewHolder(TurnoViewHolder holder, int position) {
         Turno turno = turnos.get(position);
-        holder.nombre.setText(turno.getFecha());
+        String fecha = dateFormat.format(turno.getFecha());
+        holder.nombre.setText(fecha);
     }
 
     @Override

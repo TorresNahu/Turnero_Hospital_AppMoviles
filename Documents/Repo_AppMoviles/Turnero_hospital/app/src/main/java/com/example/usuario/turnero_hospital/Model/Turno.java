@@ -1,5 +1,7 @@
 package com.example.usuario.turnero_hospital.Model;
 
+import java.util.Date;
+
 /**
  * Created by Nahu on 13/11/2017.
  */
@@ -7,10 +9,10 @@ package com.example.usuario.turnero_hospital.Model;
 public class Turno {
 
     private int id;
-    private String fecha;
+    private Date fecha;
     private String especialidad;
 
-    public Turno(int id, String fecha, String especialidad) {
+    public Turno(int id, Date fecha, String especialidad) {
         this.id = id;
         this.fecha = fecha;
         this.especialidad = especialidad;
@@ -28,11 +30,11 @@ public class Turno {
         this.id = id;
     }
 
-    public String getFecha() {
+    public Date getFecha() {
         return fecha;
     }
 
-    public void setFecha(String fecha) {
+    public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
 

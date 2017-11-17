@@ -29,9 +29,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 
 public class MisTurnos extends AppCompatActivity implements Response.Listener<JSONObject>, Response.ErrorListener {
 
@@ -42,8 +45,10 @@ public class MisTurnos extends AppCompatActivity implements Response.Listener<JS
     Turno turno;
 
     int idTurno;
-    String fecha;
+    Date fecha;
     String espec;
+
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
     SessionManager session;
 
@@ -100,13 +105,20 @@ public class MisTurnos extends AppCompatActivity implements Response.Listener<JS
 
         String[] columnas = {"idTurno", "fecha", "id_Especialidad", "id_Usuario"};
         String[] condicion = {String.valueOf(usuario.getId())};
+        String orderBy = "";
 
         Cursor cursor = db.query("datosTurno", columnas, "id_Usuario=?", condicion, null, null, null);
 
         while (cursor.moveToNext()) {
             turno = new Turno();
             turno.setId(cursor.getInt(0));
-            turno.setFecha(cursor.getString(1));
+            try {
+                fecha = sdf.parse(cursor.getString(1));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+//            turno.setFecha(cursor.getString(1));
+            turno.setFecha(fecha);
             turno.setEspecialidad(cursor.getString(2));
             listaTurnos.add(turno);
 
@@ -155,7 +167,9 @@ public class MisTurnos extends AppCompatActivity implements Response.Listener<JS
         final AlertDialog.Builder alertOpciones = new AlertDialog.Builder(MisTurnos.this);
         alertOpciones.setTitle("Información del Turno");
 
-        alertOpciones.setMessage("Fecha: " + fecha + "\nEspecialidad: " + espec);
+        String fechaTurno = sdf.format(fecha);
+
+        alertOpciones.setMessage("Fecha: " + fechaTurno + "\nEspecialidad: " + espec);
         alertOpciones.setCancelable(true);
 
         alertOpciones.setNegativeButton(
